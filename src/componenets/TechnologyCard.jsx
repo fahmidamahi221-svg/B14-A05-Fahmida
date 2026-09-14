@@ -12,7 +12,7 @@ const TechnologyCard = ({ tech, onAdd, isAdded }) => {
       <div>
         <div className="flex items-start justify-between">
           <div className="w-12 h-12 rounded-lg bg-gray-50 p-2 border border-gray-100 flex items-center justify-center">
-            <img src={tech.icon} alt={tech.name} className="w-8 h-8 object-contain" />
+            <img src={tech.icon} alt={tech.name} className="w-12 h-12 object-contain mx-auto" />
           </div>
           {tech.badge && (
             <span

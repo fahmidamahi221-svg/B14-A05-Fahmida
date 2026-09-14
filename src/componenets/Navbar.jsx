@@ -26,7 +26,7 @@ const Navbar = () => {
 
           
           <div className="flex items-center space-x-2 flex-1 md:flex-none justify-center md:justify-start">
-            <img src="/logo-text.png" alt="DevStack Logo" className="h-8 object-contain" />
+           <img src="./logo-text.png" alt="Logo" className="w-36" />
           </div>
 
           <div className="hidden md:flex space-x-8 text-sm font-medium text-gray-600">

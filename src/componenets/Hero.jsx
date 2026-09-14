@@ -24,11 +24,7 @@ const Hero = () => {
         
        
         <div className="flex justify-center">
-          <img 
-            src="/banner-stack.png" 
-            alt="Dev Stack Graphic" 
-            className="w-full max-w-md h-auto object-contain"
-          />
+        <img src="./banner-stack.png" alt="Banner" className="w-full max-w-md" />
         </div>
       </div>
     </section>
